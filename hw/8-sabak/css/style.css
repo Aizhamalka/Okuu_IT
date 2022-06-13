@@ -1,0 +1,398 @@
+:root {
+  --accent: #86d2ce;
+  --accent-light: #dcdec8;
+  --pure-white: #fff;
+}
+
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  color: var(--accent);
+  background-color:rgb(255, 231, 203);
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+  padding: 0px 15px;
+}
+
+.header {
+  background-color: var(--accent);
+}
+
+.header a {
+  color: var(--pure-white);
+  text-decoration: none;
+}
+
+.header-nav {
+  min-height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 11px 0;
+}
+
+.header-logo {
+  width: 20%;
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
+.header-menu {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.header-menu-link {
+  font-size: 16px;
+  line-height: 20px;
+  padding: 15px 10px;
+  text-transform: uppercase;
+  transition: background-color 0.2s;
+}
+
+.header-menu-link:hover {
+  background-color: var(--accent-light);
+}
+  
+.intro {
+  padding: 60px 0 50px 0;
+}
+
+.intro-inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.intro-image{
+  width: 35%;
+  }
+
+.intro-img {
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  object-fit: cover;
+ }
+
+ .intro-text {
+  width: 600px;
+  padding: 0 10px;
+  line-height: 1.5;
+}
+
+.intro-text h1 {
+  font-size: 1.5em;
+  color: var(--accent-light);
+  text-transform: uppercase;
+}
+
+.intro-text h3 {
+  font-size: 1.2em;
+  color: var(--accent-light);
+}
+.intro-text p {
+  color: rgb(34, 33, 33);
+}
+
+.about{
+  text-align: center;
+}
+
+.about-title {
+  font-size: 1.4em;
+  color: var(--accent);
+  padding-top: 60px;
+  padding-bottom: 0;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.about-img {
+  padding: 15px 0 20px;
+  border-radius: 15%;
+  object-fit: cover;
+}
+
+.services {
+  padding: 30px;
+ }
+
+.services-title {
+  font-size: 1.4em;
+  color: var(--accent);
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 2px;
+}
+.services-menu {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.services-item {
+  padding: 10px 25px;
+  color: var(--accent);
+   border-radius: 4px;
+}
+.services-item:hover {
+  color: var(--pure-white);
+  background-color: var(--accent-light)
+}
+.prodacts {
+  padding: 40px;
+  color: var(--accent);
+  background-color: var(--accent);
+}
+
+
+.prodacts-title {
+  font-size: 1.4em;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.prodacts-menu {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  list-style: none;
+}
+.prodacts-item{
+  font-size: 20px;
+  padding: 10px 25px;
+  color: #fff;
+  background-color: var(--accent-light);
+  border-radius: 4px;
+}
+.prodacts-item:hover {
+  color: var(--accent);
+  background-color: #fff;
+}
+
+.contact-inner {
+  margin: 20px 0;
+  padding: 10px;
+ 
+  }
+
+.contact-title {
+  font-size: 1.4em;
+  color: var(--accent);
+  text-align: center;
+  text-transform: uppercase;
+ }
+ .contact-menu-title {
+  color: var(--accent);
+  text-align: center;
+  text-transform: uppercase;
+}
+ .contact-menu {
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  
+}
+.contact-menu-item {
+  list-style: none;
+  color: var(--accent);
+  text-align: center;
+}
+
+.contact-menu-link {
+  color: var(--accent-light);
+  list-style: none;
+  text-align: center;
+}
+
+.contact-menu-text:hover {
+  color: var(--accent);
+}
+
+.contact-menu-link:hover {
+  color: rgb(20, 19, 20);
+}
+
+.footer {
+  padding: 20px 0;
+  letter-spacing: 1px;
+  color: #fff;
+  background-color: var(--accent);
+  }
+
+.footer p {
+  padding-top: 20px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.footer a {
+  list-style: none;
+  color: #fff;
+  padding-left: 5px;
+  text-decoration: none;
+  
+}
+.footer a:hover {
+  color: var(--accent-light);
+  background-color: var(--accent)
+}
+
+
+@media screen and (max-width: 1201px) {
+  .container {
+      width: 960px;
+  }
+  .menu {
+      display: none;
+  }
+  .menu-toggle {
+      display: block;
+  }
+  .code-example pre {
+      width: 65%;
+  }
+  .intro-left {
+      width: 45%;
+  }
+  .intro-right {
+      width: 60%;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .container {
+      width: 720px;
+  }
+  .intro-left {
+      width: 55%;
+  }
+  .intro-right {
+      width: 70%;
+  }
+  .code-example pre {
+      width: 90%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+      width: 100%;
+      padding: 0 15px;
+  }
+  .portfolio ul {
+  grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .intro-left {
+      width: 55%;
+  }
+  .intro-right {
+      width: 70%;
+  }
+  .code-example pre {
+      width: 95%;
+  }
+}
+
+@media screen and (max-width: 670px) {
+  .code-example pre {
+      width: 100%;
+  }
+  .intro-inner {
+      flex-wrap: wrap;
+  }
+  
+}
+
+@media screen and (max-width: 610px) {
+  .code-example pre {
+      font-size: unset;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .intro-left{
+      width: 70%;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .code-example pre {
+      font-size: 0.9em;
+  }
+  .intro-left {
+      width: 75%;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .code-example pre {
+      font-size: 0.7em;
+  }
+  .portfolio ul {
+      display: block;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .intro-left {
+      width: 90%;
+  }
+}
+
+@media screen and (max-width: 398px) {
+  .intro-left {
+      width: 100%;
+  }
+  .code-example pre {
+      font-size: 0.6em;
+  }
+}
+
+@media screen and (max-width: 377px) {
+  .intro-img {
+      width: 270px;
+      height: 192px;
+  }
+  .intro-left {
+      width: 80%;
+  }
+  .code-example pre {
+      font-size: 0.5em;
+  }
+}
+
+@media screen and (max-width: 377px) {
+  .intro-left {
+      width: 90%;
+  }
+}

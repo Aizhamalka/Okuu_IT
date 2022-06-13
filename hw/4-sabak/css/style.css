@@ -1,0 +1,9 @@
+
+  body {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    color: var(--accent);
+    background-color: rgb(200, 189, 241);
+  }
+  
+  

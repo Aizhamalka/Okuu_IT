@@ -1,0 +1,42 @@
+body{
+  background: linear-gradient(45deg, rgba(103, 0, 31, .8), rgba(34, 101, 163, .5)), url(https://html5book.ru/wp-content/uploads/2016/12/photo-8.jpg); 
+  background-size: cover;
+}
+.text{
+  text-indent: 450px;
+  font-style: italic;
+  padding-top: 40px;
+  color: wheat ;
+  text-shadow: 2px 2px 2px 2px rgb(146, 50, 202);
+  text-decoration: underline;
+  
+}
+.fstyle{
+  font-style: italic;
+  font-size: 20px;
+ text-align: center;
+ letter-spacing: 5px;
+ padding-top: 20px;
+ padding-left: 300px;
+  
+  
+}
+.secondstyle{
+  font-size: 20px;
+  word-spacing: 3px;
+  padding-top: 20px;
+ padding-left: 650px;
+ color:  wheat;
+ 
+}
+.last_text{
+  text-transform: uppercase;
+  text-indent: 850px;
+}
+.footer{
+  font-size: 12px;
+  text-indent:900px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  color: #0f0824;
+  }
