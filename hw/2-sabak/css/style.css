@@ -1,0 +1,21 @@
+body{
+  font-family: 'Times New Roman', Times, serif;
+  font-style: normal;
+  font-size: medium;
+  border: solid;
+}
+
+header{
+  background-color: rgb(206, 180, 231);
+  border: 1px solid rgb(7, 7, 7);
+  
+}
+nav{
+  background-color: rgb(168, 236, 225);
+  border: 1px dotted rgb(250, 51, 51);
+  }
+
+footer{
+  background-color: rgb(206, 180, 231);
+  border: 1px dotted #000;
+}
